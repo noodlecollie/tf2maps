@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "5772"
-	"mapversion" "1462"
+	"editorbuild" "6264"
+	"mapversion" "1463"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -32,7 +32,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1462"
+	"mapversion" "1463"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -125642,6 +125642,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/weapons/c_models/c_madmilk/c_madmilk.mdl"
+	"modelscale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
@@ -125666,6 +125667,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/weapons/c_models/c_madmilk/c_madmilk.mdl"
+	"modelscale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
@@ -125690,6 +125692,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/weapons/c_models/c_madmilk/c_madmilk.mdl"
+	"modelscale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
@@ -127777,6 +127780,7 @@ entity
 	"id" "12451"
 	"classname" "item_healthkit_medium"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-544 -2016 213.236"
 	editor
@@ -127792,6 +127796,7 @@ entity
 	"id" "12455"
 	"classname" "item_ammopack_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-448 1048 321.211"
 	editor
@@ -127837,6 +127842,7 @@ entity
 	"id" "13043"
 	"classname" "item_ammopack_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "600 -816 185.256"
 	editor
@@ -127882,6 +127888,7 @@ entity
 	"id" "13101"
 	"classname" "item_ammopack_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "532 -528 257.256"
 	editor
@@ -128323,6 +128330,7 @@ entity
 	"id" "14458"
 	"classname" "item_ammopack_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-392 -976 -70.7438"
 	editor
@@ -128367,6 +128375,7 @@ entity
 	"id" "14532"
 	"classname" "item_ammopack_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-512 288 361.261"
 	editor
@@ -128411,6 +128420,7 @@ entity
 	"id" "14588"
 	"classname" "item_ammopack_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-792 380 321.256"
 	editor
@@ -131780,6 +131790,7 @@ entity
 	"id" "19629"
 	"classname" "item_healthkit_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-384 96 296"
 	editor
@@ -131795,6 +131806,7 @@ entity
 	"id" "19695"
 	"classname" "item_healthkit_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-120 -488 149.246"
 	editor
@@ -133025,6 +133037,7 @@ entity
 	"id" "22800"
 	"classname" "item_ammopack_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-476 1384 337.256"
 	editor
@@ -139594,6 +139607,7 @@ entity
 	"id" "32837"
 	"classname" "item_ammopack_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-960 1504 384.256"
 	editor
@@ -139683,6 +139697,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props_gameplay/cap_point_base.mdl"
+	"modelscale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
@@ -142445,6 +142460,8 @@ entity
 {
 	"id" "34376"
 	"classname" "team_control_point_master"
+	"custom_position_x" "-1"
+	"custom_position_y" "-1"
 	"targetname" "team_control_point_master"
 	"team_base_icon_2" "sprites/obj_icons/icon_base_red"
 	"team_base_icon_3" "sprites/obj_icons/icon_base_blu"
@@ -154769,6 +154786,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props_2fort/chimney007.mdl"
+	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -155165,6 +155183,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_gameplay/can_crushed001.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -155204,6 +155223,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_gameplay/can_crushed001.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -155243,6 +155263,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_gameplay/can_crushed002.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -155282,6 +155303,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_gameplay/orange_cone001.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -155321,6 +155343,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_gameplay/orange_cone001.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -155360,6 +155383,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_gameplay/orange_cone001.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -155399,6 +155423,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_gameplay/orange_cone001.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -159376,6 +159401,7 @@ entity
 	"id" "65794"
 	"classname" "item_ammopack_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-496 272 193.261"
 	editor
@@ -163508,6 +163534,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_gameplay/can_crushed002.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -163547,6 +163574,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_gameplay/can_crushed002.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -166851,6 +166879,7 @@ entity
 	"id" "96637"
 	"classname" "item_ammopack_small"
 	"angles" "0 0 0"
+	"AutoMaterialize" "1"
 	"fademindist" "-1"
 	"origin" "-616 2120 320.256"
 	editor
@@ -168376,6 +168405,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_skybox/skybox_dome03_mid.mdl"
+	"modelscale" "1.0"
 	"parentname" "cloud_rot"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
@@ -168416,6 +168446,7 @@ entity
 	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_skybox/skybox_dome03_front.mdl"
+	"modelscale" "1.0"
 	"parentname" "cloud_rot"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
@@ -169079,6 +169110,7 @@ entity
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props_2fort/chimney007.mdl"
+	"modelscale" "1.0"
 	"PerformanceMode" "0"
 	"pressuredelay" "0"
 	"RandomAnimation" "0"
@@ -171037,8 +171069,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[6608.47 2548.36 478.325]"
-		"look" "[6654.86 2570.62 465.876]"
+		"position" "[24.8569 51.0928 158.519]"
+		"look" "[0.877525 4.36375 151.883]"
 	}
 }
 cordon
