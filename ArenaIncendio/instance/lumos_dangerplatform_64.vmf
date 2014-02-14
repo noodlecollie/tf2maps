@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6300"
-	"mapversion" "43"
+	"mapversion" "44"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "43"
+	"mapversion" "44"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -232,7 +232,7 @@ entity
 	"movedir" "0 0 0"
 	"noise1" "misc/null.wav"
 	"noise2" "misc/null.wav"
-	"origin" "0 0 0"
+	"origin" "0 -0 0"
 	"parentname" "$parentObj"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -251,7 +251,7 @@ entity
 		side
 		{
 			"id" "36"
-			"plane" "(-32 -32 4) (32 -32 4) (32 -32 -4)"
+			"plane" "(32 -32 4) (32 -32 -4) (-32 -32 -4)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -262,7 +262,7 @@ entity
 		side
 		{
 			"id" "35"
-			"plane" "(-32 32 -4) (32 32 -4) (32 32 4)"
+			"plane" "(-32 32 4) (-32 32 -4) (32 32 -4)"
 			"material" "TOOLS/TOOLSPLAYERCLIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -352,16 +352,23 @@ entity
 entity
 {
 	"id" "1151"
-	"classname" "func_illusionary"
+	"classname" "func_brush"
 	"disablereceiveshadows" "0"
 	"disableshadows" "0"
+	"InputFilter" "0"
+	"invert_exclusion" "0"
 	"origin" "0 0 0"
 	"parentname" "platform"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
+	"solidbsp" "0"
+	"Solidity" "0"
+	"spawnflags" "2"
+	"StartDisabled" "0"
 	"targetname" "platform_block"
+	"vrad_brush_cast_shadows" "0"
 	solid
 	{
 		"id" "1146"
