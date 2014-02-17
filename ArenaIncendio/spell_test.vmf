@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6300"
-	"mapversion" "8"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -1146,6 +1146,86 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "456"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "vsh_incendio/cast_lumos.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "1250"
+	"spawnflags" "48"
+	"targetname" "sound"
+	"origin" "-208.664 -128.555 9.00001"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "434"
+	"classname" "logic_relay"
+	"targetname" "relay"
+	connections
+	{
+		"OnTrigger" "case,InValue,4,0,-1"
+	}
+	"origin" "-267.969 -161.232 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "424"
+	"classname" "math_counter"
+	"targetname" "math"
+	connections
+	{
+		"OnGetValue" "!activator,InValue,,0,-1"
+	}
+	"origin" "-188.711 -166.786 9.00001"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "422"
+	"classname" "logic_case"
+	"Case01" "0"
+	"Case02" "1"
+	"Case03" "2"
+	"Case04" "3"
+	"Case05" "4"
+	"targetname" "case"
+	connections
+	{
+		"OnCase04" "math,GetValue,,0,-1"
+		"OnCase01" "sound,PlaySound,,0,-1"
+	}
+	"origin" "-231.941 -164.157 9"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
