@@ -888,7 +888,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		"wave"		"x6herbius_aprilfool_14/flamethrower_fire_hit.wav"
+	"wave"		"x6herbius_aprilfool_14/flamethrower_fire_hit.wav"
 }
 
 "Weapon_FlameThrower.PilotLoop"
@@ -896,7 +896,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"	".25"
-	"wave"		"wave"		"x6herbius_aprilfool_14/flamethrower_pilot.wav"
+	"wave"		"x6herbius_aprilfool_14/flamethrower_pilot.wav"
 }
 
 "Weapon_FlameThrower.Fire"
@@ -966,7 +966,7 @@
 	"channel"	"CHAN_ITEM"
 	"soundlevel"	"SNDLVL_104dB"
 	"volume"	"1.0"
-	"wave"		"wave"		"x6herbius_aprilfool_14/flamethrower_stop.wav"
+	"wave"		"x6herbius_aprilfool_14/flamethrower_stop.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -1037,8 +1037,6 @@
 	"wave"		"x6herbius_aprilfool_14/flamethrower_stop.wav"
 }
 
-// --- End completed sounds ---
-
 // ------------------------------------------------------------------------------------ //
 // Flare Gun
 // ------------------------------------------------------------------------------------ //
@@ -1047,7 +1045,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/flaregun_shoot.wav"
+	"wave"		"x6herbius_aprilfool_14/flaregun_shoot.wav"
 }
 
 "Weapon_FlareGun.SingleCrit"
@@ -1055,7 +1053,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/flaregun_shoot_crit.wav"
+	"wave"		"x6herbius_aprilfool_14/flaregun_shoot_crit.wav"
 }
 
 "Weapon_FlareGun.ModeSwitch"
@@ -1063,31 +1061,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"	"1.0"
-	"wave"		"weapons/stickybomblauncher_det.wav"
-}
-
-"Weapon_FlareGun.BoltBack"
-{
-	"channel"	"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"	".65"
-	"wave"		"weapons/flaregun_boltback.wav"
-}
-
-"Weapon_FlareGun.BoltForward"
-{
-	"channel"	"CHAN_ITEM"
-	"soundlevel"	"SNDLVL_94dB"
-	"volume"	".65"
-	"wave"		"weapons/flaregun_boltforward.wav"
-}
-
-"Weapon_FlareGun.WorldReload"
-{
-	"channel"	"CHAN_ITEM"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"	".45"
-	"wave"		"weapons/flaregun_worldreload.wav"
+	"wave"		"x6herbius_aprilfool_14/stickybomblauncher_det.wav"
 }
 
 "Weapon_FlareGun.ClipEmpty"
@@ -1096,60 +1070,7 @@
 	"volume"	"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		"weapons/pistol/pistol_empty.wav"
-}
-
-"Weapon_FlareGun.Draw"
-{
-	"channel"	"CHAN_AUTO"
-	"soundlevel"	"SNDLVL_74dB"
-	"volume"	".5"
-	"wave"		"weapons/draw_secondary.wav"
-}
-
-"Weapon_FlareGun.Grab"
-{
-	"channel"	"CHAN_AUTO"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"	".74"
-	"rndwave"
-	{
-		"wave"		"weapons/metal_hit_hand1.wav"
-		"wave"		"weapons/metal_hit_hand2.wav"
-		"wave"		"weapons/metal_hit_hand3.wav"
-	}
-}
-
-"Weapon_FlareGun.TubeOpen"
-{
-	"channel"	"CHAN_AUTO"
-	"soundlevel"	"SNDLVL_74dB"
-	"volume"	".5"
-	"wave"		"weapons/grenade_launcher_drum_open.wav"
-}
-
-"Weapon_FlareGun.Reload"
-{
-	"channel"		"CHAN_ITEM"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"		"1"
-	"wave"		"weapons/grenade_launcher_drum_load.wav"
-}
-
-"Weapon_FlareGun.TubeCloseStart"
-{
-	"channel"		"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"		"1"
-	"wave"		"weapons/flaregun_tube_closestart.wav"
-}
-
-"Weapon_FlareGun.TubeCloseFinish"
-{
-	"channel"		"CHAN_ITEM"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"		"1"
-	"wave"		"weapons/flaregun_tube_closefinish.wav"
+	"wave"		"x6herbius_aprilfool_14/clip_empty.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -1160,7 +1081,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/stickybomblauncher_shoot.wav"
+	"wave"		"x6herbius_aprilfool_14/stickybomblauncher_shoot.wav"
 }
 
 "Weapon_StickyBombLauncher.SingleCrit"
@@ -1168,7 +1089,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/stickybomblauncher_shoot_crit.wav"
+	"wave"		"x6herbius_aprilfool_14/stickybomblauncher_shoot_crit.wav"
 }
 
 "Weapon_StickyBombLauncher.ModeSwitch"
@@ -1176,7 +1097,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"	"1.0"
-	"wave"		"weapons/stickybomblauncher_det.wav"
+	"wave"		"x6herbius_aprilfool_14/stickybomblauncher_det.wav"
 }
 
 "Weapon_StickyBombLauncher.BoltBack"
@@ -1184,7 +1105,7 @@
 	"channel"	"CHAN_STATIC"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	".45"
-	"wave"		"weapons/stickybomblauncher_boltback.wav"
+	"wave"		"x6herbius_aprilfool_14/stickybomblauncher_boltback.wav"
 }
 
 "Weapon_StickyBombLauncher.BoltForward"
@@ -1192,7 +1113,7 @@
 	"channel"	"CHAN_ITEM"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	".45"
-	"wave"		"weapons/stickybomblauncher_boltforward.wav"
+	"wave"		"x6herbius_aprilfool_14/stickybomblauncher_boltforward.wav"
 }
 
 "Weapon_StickyBombLauncher.WorldReload"
@@ -1200,7 +1121,7 @@
 	"channel"	"CHAN_ITEM"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"	".35"
-	"wave"		"weapons/stickybomblauncher_worldreload.wav"
+	"wave"		"x6herbius_aprilfool_14/stickybomblauncher_worldreload.wav"
 }
 
 "Weapon_StickyBombLauncher.ChargeUp"
@@ -1208,7 +1129,7 @@
 	"channel"		"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".45"
-	"wave"		"weapons/stickybomblauncher_charge_up.wav"
+	"wave"		"x6herbius_aprilfool_14/stickybomblauncher_charge_up.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -1219,7 +1140,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/grenade_launcher_shoot.wav"
+	"wave"		"x6herbius_aprilfool_14/grenade_launcher_shoot.wav"
 }
 
 "Weapon_GrenadeLauncher.SingleCrit"
@@ -1227,71 +1148,15 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		")weapons/grenade_launcher_shoot_crit.wav"
+	"wave"		"x6herbius_aprilfool_14/grenade_launcher_shoot_crit.wav"
 }
-
-"Weapon_GrenadeLauncher.DrumStart"
-{
-	"channel"		"CHAN_ITEM"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"		".4"
-	"wave"		"weapons/grenade_launcher_drum_start.wav"
-}
-
-"Weapon_GrenadeLauncher.DrumStop"
-{
-	"channel"		"CHAN_ITEM"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"		".4"
-	"wave"		"weapons/grenade_launcher_drum_stop.wav"
-}
-
-"Weapon_GrenadeLauncher.DrumOpen"
-{
-	"channel"		"CHAN_ITEM"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"		"1"
-	"wave"		"weapons/grenade_launcher_drum_open.wav"
-}
-
-"Weapon_GrenadeLauncher.DrumLoad"
-{
-	"channel"		"CHAN_ITEM"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"		"1"
-	"wave"		"weapons/grenade_launcher_drum_load.wav"
-}
-
-"Weapon_GrenadeLauncher.DrumClose"
-{
-	"channel"		"CHAN_ITEM"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"		"1"
-	"wave"		"weapons/grenade_launcher_drum_close.wav"
-}
-
-"Weapon_GrenadeLauncher.WorldReload"
-{
-	"channel"	"CHAN_ITEM"
-	"soundlevel"	"SNDLVL_NORM"
-	"volume"	"1.0"
-	"wave"		"weapons/grenade_launcher_worldreload.wav"
-}
-
-"Weapon_GrenadeLauncher.Draw"
-{
-	"channel"	"CHAN_AUTO"
-	"soundlevel"	"SNDLVL_74dB"
-	"volume"	".5"
-	"wave"		"weapons/draw_secondary.wav"
-}	
 
 "Weapon_GrenadeLauncher.ModeSwitch"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"	"1.0"
-	"wave"		"weapons/stickybomblauncher_det.wav"
+	"wave"		"x6herbius_aprilfool_14/stickybomblauncher_det.wav"
 }
 
 "Weapon_GrenadeLauncher.ChargeUp"
@@ -1299,7 +1164,7 @@
 	"channel"		"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"		".45"
-	"wave"		"weapons/stickybomblauncher_charge_up.wav"
+	"wave"		"x6herbius_aprilfool_14/stickybomblauncher_charge_up.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -1311,7 +1176,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_64dB"
 	"volume"	".6"
-	"wave"		")weapons/knife_swing.wav"
+	"wave"		"x6herbius_aprilfool_14/knife_swing.wav"
 }
 
 "Weapon_Knife.MissCrit"
@@ -1319,7 +1184,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_64dB"
 	"volume"	".6"
-	"wave"		")weapons/knife_swing_crit.wav"
+	"wave"		"x6herbius_aprilfool_14/knife_swing_crit.wav"
 }
 
 "Weapon_Knife.HitFlesh"
@@ -1329,9 +1194,9 @@
 	"volume"	"1.0"
 	"rndwave"
 	{
-		"wave"		"weapons/blade_hit1.wav"
-		"wave"		"weapons/blade_hit2.wav"
-		"wave"		"weapons/blade_hit3.wav"
+		"wave"		"x6herbius_aprilfool_14/blade_hit1.wav"
+		"wave"		"x6herbius_aprilfool_14/blade_hit2.wav"
+		"wave"		"x6herbius_aprilfool_14/blade_hit3.wav"
 	}
 }
 
@@ -1340,89 +1205,8 @@
 	"channel"	"CHAN_ITEM"
 	"soundlevel"	"SNDLVL_NORM"
 	"volume"	"1.0"
-	"wave"		"weapons/blade_hitworld.wav"
+	"wave"		"x6herbius_aprilfool_14/blade_hitworld.wav"
 
-}
-
-"Weapon_Knife.Open1"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1.0"
-	"soundlevel"	"SNDLVL_NORM"
-	"pitch"		"PITCH_NORM"
-	"wave"		"weapons/knife_open1.wav"
-}
-
-"Weapon_Knife.Open2"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1.0"
-	"soundlevel"	"SNDLVL_NORM"
-	"pitch"		"PITCH_NORM"
-	"wave"		"weapons/knife_open2.wav"
-}
-
-"Weapon_Knife.Open3"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1.0"
-	"soundlevel"	"SNDLVL_NORM"
-	"pitch"		"PITCH_NORM"
-	"wave"		"weapons/knife_open3.wav"
-}
-
-"Weapon_Knife.Open4"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1.0"
-	"soundlevel"	"SNDLVL_NORM"
-	"pitch"		"PITCH_NORM"
-	"wave"		"weapons/knife_open4.wav"
-}
-
-"Weapon_Knife.Open5"
-{
-	"channel"	"CHAN_STATIC"
-	"volume"	"1.0"
-	"soundlevel"	"SNDLVL_NORM"
-	"pitch"		"PITCH_NORM"
-	"wave"		"weapons/knife_open5.wav"
-}
-
-"Weapon_Knife.Open6"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1.0"
-	"soundlevel"	"SNDLVL_NORM"
-	"pitch"		"PITCH_NORM"
-	"wave"		"weapons/knife_open6.wav"
-}
-
-
-"Weapon_Knife.Open7"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1.0"
-	"soundlevel"	"SNDLVL_NORM"
-	"pitch"		"PITCH_NORM"
-	"wave"		"weapons/knife_open7.wav"
-}
-
-"Weapon_Knife.Open8"
-{
-	"channel"	"CHAN_ITEM"
-	"volume"	"1.0"
-	"soundlevel"	"SNDLVL_NORM"
-	"pitch"		"PITCH_NORM"
-	"wave"		"weapons/knife_open8.wav"
-}
-
-"Weapon_Knife.Draw"
-{
-	"channel"	"CHAN_AUTO"
-	"soundlevel"	"SNDLVL_74dB"
-	"volume"	".5"
-	"wave"		"weapons/draw_melee.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -1433,7 +1217,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"	"1"
-	"wave"		")weapons/quick_fix_heal.wav"
+	"wave"		"x6herbius_aprilfool_14/quick_fix_heal.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -1444,7 +1228,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"	"1"
-	"wave"		")weapons/medigun_heal.wav"
+	"wave"		"x6herbius_aprilfool_14/medigun_heal.wav"
 }
 
 "WeaponMedigun.Charged"
@@ -1452,7 +1236,7 @@
 	"channel"		"CHAN_ITEM"
 	"soundlevel"	"SNDLVL_74dB"
 	"volume"		"1"
-	"wave"		"weapons/medigun_charged.wav"
+	"wave"		"x6herbius_aprilfool_14/medigun_charged.wav"
 }
 
 "WeaponMedigun.NoTarget"
@@ -1460,7 +1244,7 @@
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_74Db"
 	"volume"	"1.0"
-	"wave"		")weapons/medigun_no_target.wav"
+	"wave"		"x6herbius_aprilfool_14/medigun_no_target.wav"
 }
 
 "Weapon_Medikit.HitFlesh"
@@ -1470,9 +1254,9 @@
 	"volume"	"1.0"
 	"rndwave"
 	{
-		"wave"		"weapons/cbar_hitbod1.wav"
-		"wave"		"weapons/cbar_hitbod2.wav"
-		"wave"		"weapons/cbar_hitbod3.wav"
+		"wave"		"x6herbius_aprilfool_14/melee_hit_flesh1.wav"
+		"wave"		"x6herbius_aprilfool_14/melee_hit_flesh2.wav"
+		"wave"		"x6herbius_aprilfool_14/melee_hit_flesh3.wav"
 	}
 }
 
@@ -1483,19 +1267,12 @@
 	"volume"	"1.0"
 	"rndwave"
 	{
-		"wave"		"weapons/cbar_hit1.wav"
-		"wave"		"weapons/cbar_hit2.wav"
+		"wave"		"x6herbius_aprilfool_14/bat_hit_world1.wav"
+		"wave"		"x6herbius_aprilfool_14/bat_hit_world1.wav"
 	}
 }
 
-"Weapon_Medigun.Draw"
-{
-	"channel"	"CHAN_AUTO"
-	"soundlevel"	"SNDLVL_74dB"
-	"volume"	".5"
-	"wave"		"weapons/draw_secondary.wav"
-}
-
+// --- End completed sounds ---
 
 // ------------------------------------------------------------------------------------ //
 // OVERDOSE
