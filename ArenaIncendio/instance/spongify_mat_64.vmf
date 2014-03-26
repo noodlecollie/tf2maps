@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6186"
-	"mapversion" "34"
+	"editorbuild" "6322"
+	"mapversion" "35"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "34"
+	"mapversion" "35"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -327,7 +327,7 @@ entity
 	connections
 	{
 		"OnTrigger" "spongify_push,Enable,,0,-1"
-		"OnTrigger" "spongify_push,Disable,,0.4,-1"
+		"OnTrigger" "spongify_push,Disable,,0.2,-1"
 		"OnTrigger" "spongify_sound,PlaySound,,0,-1"
 	}
 	"origin" "8 -8 16"
