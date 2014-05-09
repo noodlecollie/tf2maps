@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6356"
-	"mapversion" "6"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"comment" "Decompiled by VMEX v0.98g from C:"
 	"detailmaterial" "detail/detailsprites"
@@ -46971,83 +46971,80 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	hidden
+	solid
 	{
-		solid
+		"id" "2384"
+		side
 		{
-			"id" "2384"
-			side
-			{
-				"id" "9946"
-				"plane" "(-435.65 -1075.62 0) (-455.639 -1075.62 0) (-959.639 -1075.62 252.125)"
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[1 0 0 -1.44531] 0.25"
-				"vaxis" "[0 0 -1 60] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "9947"
-				"plane" "(-455.639 -1011.62 0) (-435.639 -1011.62 0) (-939.639 -1011.62 252.125)"
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[-1 0 0 1.44531] 0.25"
-				"vaxis" "[0 0 -1 60] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "9948"
-				"plane" "(-435.639 -1011.62 0) (-455.639 -1011.62 0) (-455.639 -1075.62 0)"
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[0 1 0 62.4688] 0.25"
-				"vaxis" "[-1 0 0 1.44531] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "9949"
-				"plane" "(-939.639 -1075.62 252.125) (-959.639 -1075.62 252.125) (-959.639 -1011.62 252.125)"
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[0 -1 0 -62.4688] 0.25"
-				"vaxis" "[-1 0 0 1.44531] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "9950"
-				"plane" "(-435.639 -1075.62 0) (-939.639 -1075.62 252.125) (-939.639 -1011.62 252.125)"
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[0 1 0 62.4688] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "9951"
-				"plane" "(-455.639 -1011.62 0) (-959.639 -1011.62 252.125) (-959.639 -1075.62 252.125)"
-				"material" "TOOLS/TOOLSPLAYERCLIP"
-				"uaxis" "[0 1 0 62.4688] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			editor
-			{
-				"color" "200 100 100"
-				"visgroupshown" "1"
-				"visgroupautoshown" "1"
-			}
+			"id" "9946"
+			"plane" "(-435.65 -1075.62 0) (-455.639 -1075.62 0) (-959.639 -1075.62 252.125)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 -1.44531] 0.25"
+			"vaxis" "[0 0 -1 60] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9947"
+			"plane" "(-455.639 -1011.62 0) (-435.639 -1011.62 0) (-939.639 -1011.62 252.125)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[-1 0 0 1.44531] 0.25"
+			"vaxis" "[0 0 -1 60] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9948"
+			"plane" "(-435.639 -1011.62 0) (-455.639 -1011.62 0) (-455.639 -1075.62 0)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 62.4688] 0.25"
+			"vaxis" "[-1 0 0 1.44531] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9949"
+			"plane" "(-939.639 -1075.62 252.125) (-959.639 -1075.62 252.125) (-959.639 -1011.62 252.125)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 -1 0 -62.4688] 0.25"
+			"vaxis" "[-1 0 0 1.44531] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9950"
+			"plane" "(-435.639 -1075.62 0) (-939.639 -1075.62 252.125) (-939.639 -1011.62 252.125)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 62.4688] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9951"
+			"plane" "(-455.639 -1011.62 0) (-959.639 -1011.62 252.125) (-959.639 -1075.62 252.125)"
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 62.4688] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "200 100 100"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
 		}
 	}
 }
@@ -86836,8 +86833,4 @@ cordon
 	"mins" "(99999 99999 99999)"
 	"maxs" "(-99999 -99999 -99999)"
 	"active" "0"
-}
-quickhide
-{
-	"count" "1"
 }
