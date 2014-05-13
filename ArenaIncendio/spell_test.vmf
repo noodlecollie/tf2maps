@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6322"
-	"mapversion" "17"
+	"editorbuild" "6356"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -1363,6 +1363,29 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "584"
+	"classname" "tf_point_weapon_mimic"
+	"angles" "-90 0 0"
+	"Crits" "1"
+	"Damage" "75"
+	"ModelScale" "1"
+	"SpeedMax" "500"
+	"SpeedMin" "600"
+	"SplashRadius" "50"
+	"SpreadAngle" "5"
+	"targetname" "mimic"
+	"WeaponType" "1"
+	"origin" "-64 -128 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
