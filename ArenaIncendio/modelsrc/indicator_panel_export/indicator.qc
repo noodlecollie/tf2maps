@@ -1,5 +1,5 @@
 $modelname      "vsh_incendio/indicator.mdl"
-$scale          12
+$scale          24
 $body body01	"body.smd"
 $texturegroup "indicator"
 {
