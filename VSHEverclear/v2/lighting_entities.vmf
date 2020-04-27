@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7937"
-	"mapversion" "7"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -37,9 +37,9 @@ entity
 	"_light" "255 239 191 800"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
-	"angles" "0 210 0"
-	"pitch" "-80"
-	"SunSpreadAngle" "4"
+	"angles" "0 248 0"
+	"pitch" "-60"
+	"SunSpreadAngle" "1"
 	"origin" "0 0 8"
 	editor
 	{
@@ -53,13 +53,13 @@ entity
 {
 	"id" "12"
 	"classname" "env_sun"
-	"angles" "0 210 0"
+	"angles" "0 248 0"
 	"HDRColorScale" "1.0"
 	"material" "sprites/light_glow02_add_noz"
 	"overlaycolor" "0 0 0"
 	"overlaymaterial" "sprites/light_glow02_add_noz"
 	"overlaysize" "-1"
-	"pitch" "-80"
+	"pitch" "-60"
 	"rendercolor" "255 239 191"
 	"size" "16"
 	"use_angles" "1"
@@ -76,7 +76,7 @@ entity
 {
 	"id" "29"
 	"classname" "shadow_control"
-	"angles" "80 210 0"
+	"angles" "60 248 0"
 	"color" "107 115 148"
 	"disableallshadows" "0"
 	"distance" "75"
