@@ -1,13 +1,19 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7937"
-	"mapversion" "11"
+	"editorbuild" "8163"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
 visgroups
 {
+	visgroup
+	{
+		"name" "Env Sun"
+		"visgroupid" "7"
+		"color" "125 82 139"
+	}
 }
 viewsettings
 {
@@ -20,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "11"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites_2fort"
 	"detailvbsp" "detail_2fort.vbsp"
@@ -49,27 +55,31 @@ entity
 		"logicalpos" "[0 11500]"
 	}
 }
-entity
+hidden
 {
-	"id" "12"
-	"classname" "env_sun"
-	"angles" "0 248 0"
-	"HDRColorScale" "1.0"
-	"material" "sprites/light_glow02_add_noz"
-	"overlaycolor" "0 0 0"
-	"overlaymaterial" "sprites/light_glow02_add_noz"
-	"overlaysize" "-1"
-	"pitch" "-60"
-	"rendercolor" "255 239 191"
-	"size" "16"
-	"use_angles" "1"
-	"origin" "0 0 24"
-	editor
+	entity
 	{
-		"color" "255 0 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 11500]"
+		"id" "12"
+		"classname" "env_sun"
+		"angles" "0 248 0"
+		"HDRColorScale" "1.0"
+		"material" "sprites/light_glow02_add_noz"
+		"overlaycolor" "0 0 0"
+		"overlaymaterial" "sprites/light_glow02_add_noz"
+		"overlaysize" "-1"
+		"pitch" "-60"
+		"rendercolor" "255 239 191"
+		"size" "16"
+		"use_angles" "1"
+		"origin" "0 0 24"
+		editor
+		{
+			"color" "255 0 0"
+			"visgroupid" "7"
+			"visgroupshown" "0"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 11500]"
+		}
 	}
 }
 entity
